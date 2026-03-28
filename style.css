@@ -7,13 +7,14 @@
 }
 
 body {
-    background: #f5f5f5;
+    background: #1a1325; 
+    color: #f3e8ff;
 }
 
-/* NAVBAR */
+
 header {
-    background: #333;
-    color: white;
+    background: #2a1e3f; 
+    color: #e6d6ff;
     padding: 15px 20px;
 }
 
@@ -33,27 +34,32 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #d8b4fe; /* lavender */
     text-decoration: none;
 }
 
-/* HERO */
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #4CAF50;
+    background: linear-gradient(to right, #3b1f5c, #6d4aff); 
     color: white;
 }
 
 .hero span {
-    color: yellow;
+    color: #e9d5ff; 
 }
 
-/* TASKS */
+
 .tasks {
     padding: 40px 20px;
     text-align: center;
 }
+
 
 .card-container {
     display: flex;
@@ -63,11 +69,12 @@ nav ul li a {
 }
 
 .card {
-    background: white;
+    background: #2a1e3f; /* dark purple card */
+    color: #f3e8ff;
     padding: 20px;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
 .card a {
@@ -75,21 +82,25 @@ nav ul li a {
     margin-top: 10px;
     text-decoration: none;
     color: white;
-    background: #4CAF50;
+    background: #7c3aed;
     padding: 8px 15px;
     border-radius: 5px;
 }
 
-/* ABOUT */
+.card a:hover {
+    background: #a78bfa; 
+}
+
+
 .about {
     padding: 40px 20px;
     text-align: center;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 15px;
-    background: #333;
-    color: white;
+    background: #2a1e3f;
+    color: #e6d6ff;
 }
