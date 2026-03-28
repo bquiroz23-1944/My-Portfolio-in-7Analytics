@@ -1,0 +1,82 @@
+portfolio/
+│── index.html
+│── style.css
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#Information">Information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <h2>Hello, I'm <span>Quiroz, Benedict P.</span></h2>
+        <p>Aspiring Web Developer</p>
+    </section>
+
+    <!-- TASKS SECTION -->
+    <section id="tasks" class="tasks">
+        <h2>My Works</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Practice Task 2</h3>
+                <p>Description of your work</p>
+                <a href="#">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practice Task 3</h3>
+                <p>Description of your work</p>
+                <a href="#">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Practice Task 4</h3>
+                <p>Description of your work</p>
+                <a href="#">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Midterm Task 1</h3>
+                <p>Description of your work</p>
+                <a href="#">View</a>
+            </div>
+
+            <div class="card">
+                <h3>Midterm Task 2</h3>
+                <p>Description of your work</p>
+                <a href="#">View</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a student learning HTML and CSS, building simple and clean web pages.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
